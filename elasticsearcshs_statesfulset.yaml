@@ -64,7 +64,7 @@ spec:
         securityContext:
           privileged: true
   volumeClaimTemplates:
- - metadata:
+  - metadata:
       name: data
       labels:
         app: elasticsearch
